@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.752f090b.chunk.css",
-    "main.js": "/static/js/main.d65f2efc.chunk.js",
-    "main.js.map": "/static/js/main.d65f2efc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c36f934b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c36f934b.js.map",
-    "static/js/2.21311c10.chunk.js": "/static/js/2.21311c10.chunk.js",
-    "static/js/2.21311c10.chunk.js.map": "/static/js/2.21311c10.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5c638c21adc2d4e61bd988a2ea94445b.js": "/precache-manifest.5c638c21adc2d4e61bd988a2ea94445b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.752f090b.chunk.css.map": "/static/css/main.752f090b.chunk.css.map",
-    "static/js/2.21311c10.chunk.js.LICENSE.txt": "/static/js/2.21311c10.chunk.js.LICENSE.txt",
-    "static/media/illustration-working.svg": "/static/media/illustration-working.5029d049.svg"
+    "main.css": "/url-shortening-api-master/static/css/main.5955355e.chunk.css",
+    "main.js": "/url-shortening-api-master/static/js/main.c755ab46.chunk.js",
+    "main.js.map": "/url-shortening-api-master/static/js/main.c755ab46.chunk.js.map",
+    "runtime-main.js": "/url-shortening-api-master/static/js/runtime-main.658a759f.js",
+    "runtime-main.js.map": "/url-shortening-api-master/static/js/runtime-main.658a759f.js.map",
+    "static/js/2.21311c10.chunk.js": "/url-shortening-api-master/static/js/2.21311c10.chunk.js",
+    "static/js/2.21311c10.chunk.js.map": "/url-shortening-api-master/static/js/2.21311c10.chunk.js.map",
+    "index.html": "/url-shortening-api-master/index.html",
+    "precache-manifest.996463d457aa6264813acffb4f89ab39.js": "/url-shortening-api-master/precache-manifest.996463d457aa6264813acffb4f89ab39.js",
+    "service-worker.js": "/url-shortening-api-master/service-worker.js",
+    "static/css/main.5955355e.chunk.css.map": "/url-shortening-api-master/static/css/main.5955355e.chunk.css.map",
+    "static/js/2.21311c10.chunk.js.LICENSE.txt": "/url-shortening-api-master/static/js/2.21311c10.chunk.js.LICENSE.txt",
+    "static/media/illustration-working.svg": "/url-shortening-api-master/static/media/illustration-working.5029d049.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c36f934b.js",
+    "static/js/runtime-main.658a759f.js",
     "static/js/2.21311c10.chunk.js",
-    "static/css/main.752f090b.chunk.css",
-    "static/js/main.d65f2efc.chunk.js"
+    "static/css/main.5955355e.chunk.css",
+    "static/js/main.c755ab46.chunk.js"
   ]
 }

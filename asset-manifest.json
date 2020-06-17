@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/url-shortening-api-master/static/css/main.f8407d36.chunk.css",
-    "main.js": "/url-shortening-api-master/static/js/main.90fa5e3d.chunk.js",
-    "main.js.map": "/url-shortening-api-master/static/js/main.90fa5e3d.chunk.js.map",
+    "main.js": "/url-shortening-api-master/static/js/main.3c387022.chunk.js",
+    "main.js.map": "/url-shortening-api-master/static/js/main.3c387022.chunk.js.map",
     "runtime-main.js": "/url-shortening-api-master/static/js/runtime-main.658a759f.js",
     "runtime-main.js.map": "/url-shortening-api-master/static/js/runtime-main.658a759f.js.map",
     "static/js/2.f18dcf15.chunk.js": "/url-shortening-api-master/static/js/2.f18dcf15.chunk.js",
     "static/js/2.f18dcf15.chunk.js.map": "/url-shortening-api-master/static/js/2.f18dcf15.chunk.js.map",
     "index.html": "/url-shortening-api-master/index.html",
-    "precache-manifest.d19bf9dc0ef73ec20dab508e53dd3f0e.js": "/url-shortening-api-master/precache-manifest.d19bf9dc0ef73ec20dab508e53dd3f0e.js",
+    "precache-manifest.3a7edc434d2a40eeba03e2bfc64f4b9f.js": "/url-shortening-api-master/precache-manifest.3a7edc434d2a40eeba03e2bfc64f4b9f.js",
     "service-worker.js": "/url-shortening-api-master/service-worker.js",
     "static/css/main.f8407d36.chunk.css.map": "/url-shortening-api-master/static/css/main.f8407d36.chunk.css.map",
     "static/js/2.f18dcf15.chunk.js.LICENSE.txt": "/url-shortening-api-master/static/js/2.f18dcf15.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.658a759f.js",
     "static/js/2.f18dcf15.chunk.js",
     "static/css/main.f8407d36.chunk.css",
-    "static/js/main.90fa5e3d.chunk.js"
+    "static/js/main.3c387022.chunk.js"
   ]
 }

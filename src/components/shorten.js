@@ -1,41 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Shorten() {
 
+    const [url, setUrl] = useState(null)
+
     function formUrl(e) {
         e.preventDefault()
+        const formData = new FormData(e.currentTarget)
+        console.log(e.currentTarget);
+        const BASE_URL = `https://rel.ink/api/links/`
+        fetch(BASE_URL, {
+            method: 'POST',
+            body: formData
+        })
+        .then(data => {
+            return data.json()
+        })
+        .then(data => {
+            setUrl([`https://rel.ink/${data.hashid}`, data.url])
+            console.log(data)
+            console.log(data.hashid)
+            console.log(url)
+        })
     }
 
-    function validUrl(e) {
-        console.log(e.currentTarget())
+    function copyUrl(e) {
+        
     }
 
     return <section className="shorten">
             <form className="form" onSubmit={formUrl}>
-                <input placeholder="shorten a link here" type="url" name="shorten" required />
-                <button className="btn-secondary default" onChange={validUrl} type="submit">Shorten It!</button>
+                <input placeholder="shorten a link here" type="url" name="url" required />
+                <button className="btn-secondary default" type="submit">Shorten It!</button>
             </form>
-            <div className="all-url">
-                <div className="response"><p>https://frontendmentor.io</p></div>
-                <div className="url">
-                    <p>https://rel.ink/k4lKyk</p>
-                    <button className="btn-secondary medium">Copy</button>
+            {url ?
+                <div className="all-url" key>
+                    <div className="response"><p>{url[1]}</p></div>
+                    <div className="url">
+                        <a href={url[0]} target="__blank" >{url[0]}</a>
+                        <button className="btn-secondary medium" onClick={copyUrl}>Copy</button>
+                    </div>
                 </div>
-            </div>
-            <div className="all-url">
-                <div className="response"><p>https://frontendmentor.io</p></div>
-                <div className="url">
-                    <p>https://rel.ink/k4lKyk</p>
-                    <button className="btn-secondary medium">Copy</button>
-                </div>
-            </div>
-            <div className="all-url">
-                <div className="response"><p>https://frontendmentor.io</p></div>
-                <div className="url">
-                    <p>https://rel.ink/k4lKyk</p>
-                    <button className="btn-secondary medium">Copy</button>
-                </div>
-            </div>
+                : console.log("No hay nada:(")
+            }
         </section>
 }
 

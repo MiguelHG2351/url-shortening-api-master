@@ -1,25 +1,31 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import React from "react";
+import "./App.css";
+import Index from "./pages/index";
+// import { Provider } from "react-redux";
+// import { createStore } from "redux";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// Redux
+// const initialState = {
+//   urlList: []
+// };
+
+// function reducer(state, algo) {
+//   return state;
+// }
+// const stores = createStore(reducer, initialState)
+
 // Estilos style
-import './App.css';
 
 // Pages
-import Index from './pages/index'
-import Header from './components/header'
-import NotFound from './pages/NotFound'
-
 
 function App() {
   return (
-      <Router>
-        <Switch>
-        <Header>
-          <Route exact path="/" component={Index} />
-          <Route exact path="/url-shortening-api-master/" component={Index} />
-        </Header>
-          <Route exact component={NotFound} />
-        </Switch>
-      </Router>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Index} />
+          </Switch>
+        </Router>
   );
 }
 

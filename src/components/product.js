@@ -7,6 +7,7 @@ import fully from '../static/images/icon-fully-customizable.svg'
 
 function Products() {
     return <section className="product-info">
+        <div className="card-line"></div>
         <div className="product-title">
             <h2>Advanced Statistics</h2>
             <p>Track your your links are performing across the web with our advanced statistics dashboard.</p>
@@ -21,7 +22,7 @@ function Products() {
             mean a thing. Branded links help instil confident in your content.</p>
             </div>
         </article>
-        <article className="card line">
+        <article className="card">
             <figure className="card-image">
                 <img src={detailed} alt="Tenemos una gran marca en el mercado" />
             </figure>
@@ -31,7 +32,7 @@ function Products() {
             where people engage with your content hekos inform better decisions.</p>
             </div>
         </article>
-        <article className="card line">
+        <article className="card">
             <figure className="card-image">
                 <img src={fully} alt="Tenemos una gran marca en el mercado" />
             </figure>

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af5fbcb96c8f6a5d133db1324cbc6807",
+    "revision": "7342376644a250beb38742d9229ba529",
     "url": "/url-shortening-api-master/index.html"
   },
   {
-    "revision": "bc248c9f958e53142e52",
-    "url": "/url-shortening-api-master/static/css/main.c63996be.chunk.css"
+    "revision": "5cadaf6164b9b57feb5e",
+    "url": "/url-shortening-api-master/static/css/main.f8407d36.chunk.css"
   },
   {
-    "revision": "1218b431a91c889fd3fc",
-    "url": "/url-shortening-api-master/static/js/2.06daea4b.chunk.js"
+    "revision": "8100c4875b2c888eda99",
+    "url": "/url-shortening-api-master/static/js/2.f18dcf15.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/url-shortening-api-master/static/js/2.06daea4b.chunk.js.LICENSE.txt"
+    "url": "/url-shortening-api-master/static/js/2.f18dcf15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc248c9f958e53142e52",
-    "url": "/url-shortening-api-master/static/js/main.1aa2a021.chunk.js"
+    "revision": "5cadaf6164b9b57feb5e",
+    "url": "/url-shortening-api-master/static/js/main.90fa5e3d.chunk.js"
   },
   {
     "revision": "b1b374b14a5e3203aa0d",
@@ -36,8 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/url-shortening-api-master/static/media/icon-detailed-records.e3d9caa9.svg"
   },
   {
+    "revision": "7febcff9f143b83553d544fc04fc5b09",
+    "url": "/url-shortening-api-master/static/media/icon-facebook.7febcff9.svg"
+  },
+  {
     "revision": "cc099cea0da2f5ae13aef182c107a854",
     "url": "/url-shortening-api-master/static/media/icon-fully-customizable.cc099cea.svg"
+  },
+  {
+    "revision": "996b697c33ab8772e59e3c9bec1124ea",
+    "url": "/url-shortening-api-master/static/media/icon-instagram.996b697c.svg"
+  },
+  {
+    "revision": "c557c3d4e80b5eda1ae120c8c2257e26",
+    "url": "/url-shortening-api-master/static/media/icon-pinterest.c557c3d4.svg"
+  },
+  {
+    "revision": "cb4fea0b4771a5dfc70f787d5e01c91e",
+    "url": "/url-shortening-api-master/static/media/icon-twitter.cb4fea0b.svg"
   },
   {
     "revision": "5029d0493c803aac6c96e13be419ecb7",

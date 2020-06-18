@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Product from "../components/product";
 import Shorten from "../components/shorten";
+import Links from '../components/link'
 
 function Index() {
   return (
@@ -13,6 +14,7 @@ function Index() {
       <Description />
       <Shorten />
       <Product />
+      <Links />
       <Footer />
     </Header>
   );

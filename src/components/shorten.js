@@ -31,7 +31,7 @@ function Shorten() {
     return <section className="shorten">
             <form className="form" onSubmit={formUrl}>
                 <input placeholder="shorten a link here" type="url" name="url" required />
-                <button className="btn-secondary default" type="submit">Shorten It!</button>
+                <button className="btn-secondary medium" type="submit">Shorten It!</button>
             </form>
             {url ?
                 <div className="all-url" key>

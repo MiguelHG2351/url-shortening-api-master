@@ -2,17 +2,14 @@ import React, { useState } from 'react'
 
 function Header() {
 
-    let [active, setActive] = useState("closeMenu");
-    let [display, setDisplay] = useState("none");
+    let [active, setActive] = useState("slider inActive");
 
     function toggleMenu() {
         // console.log("hola mundo");
-        if (active === 'closeMenu') {
-            setActive('openMenu')
-            setDisplay('block');
-        } else {
-            setActive('closeMenu')
-            // setDisplay('none');
+        if (active === 'slider inActive') {
+            setActive('slider active');
+        } else if(active === 'slider active') {
+            setActive('slider inActive');
         }
     }
 
@@ -25,11 +22,11 @@ function Header() {
                     <button onClick={toggleMenu} className="menu">
                         <i className="material-icons">menu</i>
                     </button>
-                    <div style={{animation: `${active} .3s ease forwards`, display: `${display}`}} className="slider">
+                    <div className={active}>
                         <ul className="list-nav">
-                            <li className="list-nav-element">Features</li>
-                            <li className="list-nav-element">Pricing</li>
-                            <li className="list-nav-element">Resources</li>
+                            <li className="list-nav-element"><a href="https://github.com">Features</a></li>
+                            <li className="list-nav-element"><a href="https://github.com/">Pricing</a></li>
+                            <li className="list-nav-element"><a href="https://github.com">Resources</a></li>
                         </ul>
                         <div className="line"></div>
                         <div className="login">

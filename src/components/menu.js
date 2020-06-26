@@ -5,7 +5,6 @@ function Header() {
     let [active, setActive] = useState("slider inActive");
 
     function toggleMenu() {
-        // console.log("hola mundo");
         if (active === 'slider inActive') {
             setActive('slider active');
         } else if(active === 'slider active') {

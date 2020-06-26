@@ -13,14 +13,14 @@ function Shorten() {
             method: 'POST',
             body: formData
         })
-        .then(data => {
-            return data.json()
-        })
+        .then(data => data.json())
         .then(data => {
             setUrl([`https://rel.ink/${data.hashid}`, data.url])
             console.log(data)
             console.log(data.hashid)
             console.log(url)
+        }).catch(err => {
+            console.log("Ha ocurrido un error: ", err);
         })
     }
 

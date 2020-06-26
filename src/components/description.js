@@ -1,6 +1,5 @@
 import React from 'react'
 
-// Assets
 import icon from '../static/images/illustration-working.svg'
 
 function Description() {

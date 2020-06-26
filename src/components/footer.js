@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-//Assets
 import logo from '../static/images/logo2.svg'
 import facebook from '../static/images/icon-facebook.svg'
 import instagram from '../static/images/icon-instagram.svg'
